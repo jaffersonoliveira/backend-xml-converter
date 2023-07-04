@@ -1,0 +1,19 @@
+{
+  "name": "backend-xml-converter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jaffersonoliveira/backend-xml-converter.git",
+  "author": "Jafferson Oliveira <jafferson.oliveira@grupoadolfolutz.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node --loader ts-node/esm ./src/index.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
