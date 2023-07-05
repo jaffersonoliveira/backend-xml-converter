@@ -44,6 +44,13 @@
       "error",
       "always"
     ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "aways"
+      }
+    ],
     "import-helpers/order-imports": [
       "warn",
       {
